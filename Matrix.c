@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-	int i, j, matriz = 0;
+	int i, j, matriz = 0, escolha = 0;
 	printf("\n");
 
 	for (i = 0; i < 10; i++)
@@ -13,5 +13,9 @@ int main(){
 		}
 		printf("\n");
 	}
+	printf("digite o numero que deseja trocar por X\n");
+	scanf("%d", &escolha);
+
+	
     return 0;
 }
